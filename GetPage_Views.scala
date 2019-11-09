@@ -26,7 +26,7 @@ object GetPage_Views {
     var time="01"  //args(1)
     var topN=5  //args(2).toInt
 
-    val hdfspath="dev/product/can_staging/test_rk/wiki/"
+    val hdfspath="myhdfsPath/wiki/"
     //Construct the hdfs path based on the input date and time 
     var filepath= hdfspath+dt.substring(0,4)+"/"+dt.substring(0,4)+"-"+dt.substring(6,8)
                 filepath+= "/pageviews-"+dt+"-0000"+time+".gz"
