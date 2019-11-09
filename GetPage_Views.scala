@@ -31,7 +31,7 @@ object GetPage_Views {
     var filepath= hdfspath+dt.substring(0,4)+"/"+dt.substring(0,4)+"-"+dt.substring(6,8)
                 filepath+= "/pageviews-"+dt+"-0000"+time+".gz"
     //var filepath="hdfspath"+"/2019/2019-01/pageviews-20190101-000000.gz"
-    //dev/product/can_staging/test_rk/wiki/2019/2019-01/pageviews-20190101-000000.gz
+    //hdfspath/2019/2019-01/pageviews-20190101-000000.gz
     var blacklistpath="hdfspath"+"/blacklist.txt"
 
 
